@@ -1,0 +1,24 @@
+.admin-container {
+  padding: 2rem 0;
+  color: white;
+  min-height: 80vh;
+}
+
+/* Custom table styling to blend with the dark theme if needed, 
+   though Bootstrap table-dark is usually sufficient. */
+.table-custom {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  color: white !important;
+}
+
+.table-custom th,
+.table-custom td {
+  vertical-align: middle;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.table-custom th {
+  background: rgba(255, 255, 255, 0.1);
+}

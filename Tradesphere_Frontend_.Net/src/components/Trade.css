@@ -1,0 +1,303 @@
+/* =========================
+   ROOT CONTAINER
+========================= */
+.trade-container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #0a0a0a;
+  color: #ffffff;
+  border: 2px solid #7b2cbf;
+
+  border-radius: 12px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #c77dff;
+}
+
+/* =========================
+   SUMMARY CARD
+========================= */
+.summary-card {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  background: #1a0a2e;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #7b2cbf;
+}
+
+.summary-card p {
+  background: #1a0a2e;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #7b2cbf;
+}
+
+/* =========================
+   PROFIT / LOSS
+========================= */
+.profit {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.loss {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+/* =========================
+   TRADE PANEL
+========================= */
+.trade-panel {
+  background: #1a0a2e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border: 2px solid #7b2cbf;
+}
+
+.price-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #c77dff;
+}
+
+/* =========================
+   CONTROLS
+========================= */
+.trade-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.trade-controls select,
+.trade-controls input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #7b2cbf;
+  background: #0f0317;
+  color: #ffffff;
+  min-width: 120px;
+}
+
+.trade-controls input {
+  width: 140px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.trade-controls button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.trade-controls button:hover {
+  opacity: 0.9;
+}
+
+.trade-controls button:first-of-type {
+  background: #000000;
+  color: #ffffff;
+}
+
+.sell-btn {
+  background: #ef4444;
+  color: #fff;
+}
+
+.sell-btn:disabled {
+  background: #7f1d1d;
+  cursor: not-allowed;
+}
+
+/* =========================
+   QTY PREVIEW
+========================= */
+.qty-preview {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* =========================
+   PORTFOLIO TABLE
+========================= */
+.section-title {
+  margin-bottom: 10px;
+  color: #c77dff;
+}
+
+.portfolio-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1a0a2e;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #7b2cbf;
+}
+
+.portfolio-table th,
+.portfolio-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #7b2cbf;
+}
+
+.portfolio-table th {
+  background: #1a0a2e;
+  color: #c77dff;
+}
+
+.portfolio-table tr:hover {
+  background: #0f0317;
+}
+
+.empty {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .trade-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .trade-controls select,
+  .trade-controls input,
+  .trade-controls button {
+    width: 100%;
+  }
+}
+
+.holding-card {
+  padding: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.holding-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.holding-mid,
+.holding-bottom {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+/* ===== WALLET BAR ===== */
+.wallet-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.wallet-label {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.wallet-input {
+  width: 110px;
+  padding: 6px 8px;
+  background: #0f0317;
+  border: 1px solid #7b2cbf;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.wallet-input:focus {
+  outline: none;
+  border-color: #7b2cbf;
+}
+
+.wallet-btn {
+  padding: 6px 14px;
+  background: linear-gradient(135deg, #7b2cbf, #c77dff);
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.wallet-btn:hover {
+  opacity: 0.9;
+}
+
+/* =========================
+   COIN LOGOS (ADD-ON ONLY)
+========================= */
+
+/* Logo + symbol wrapper (trade panel & portfolio) */
+.coin-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* General coin logo */
+.coin-logo {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #1a0a2e;
+}
+
+/* Logo inside price text (trade panel top) */
+.price-text .coin-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Portfolio holding top alignment fix */
+.holding-top .coin-info {
+  font-size: 16px;
+}
+
+/* Slight hover effect for premium feel */
+.holding-card:hover .coin-logo,
+.trade-panel:hover .coin-logo {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+/* Mobile adjustment */
+@media (max-width: 768px) {
+  .coin-logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .price-text .coin-logo {
+    width: 26px;
+    height: 26px;
+  }
+}
+

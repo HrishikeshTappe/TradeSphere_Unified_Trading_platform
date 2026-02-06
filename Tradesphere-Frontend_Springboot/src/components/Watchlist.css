@@ -1,0 +1,40 @@
+/* PAGE */
+.watchlist-page {
+  min-height: 80vh;
+  padding: 24px 0;
+  color: white;
+}
+
+/* TABLE */
+.watchlist-table-card {
+  background: rgba(26, 10, 46, 0.4);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.coin-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* CHART BOX */
+.chart-box {
+  background: rgba(13, 2, 24, 0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  height: 600px;
+  /* Fixed height for chart area */
+}
+
+/* UTILS */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}

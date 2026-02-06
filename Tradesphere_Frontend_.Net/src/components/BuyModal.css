@@ -1,0 +1,205 @@
+/* Overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(6px);
+  z-index: 999;
+}
+
+/* Modal container */
+.modal-content {
+  width: 92%;
+  max-width: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+  animation: pop 0.25s ease;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(18, 18, 18, 0.85);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Header */
+.modal-header {
+  padding: 16px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy-header {
+  background: linear-gradient(135deg, #22c55e, #065f46);
+}
+
+.sell-header {
+  background: linear-gradient(135deg, #ef4444, #7f1d1d);
+}
+
+.currency-badge {
+  background: rgba(255, 255, 255, 0.18);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+/* Body */
+.modal-body {
+  padding: 20px;
+  color: #e5e7eb;
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Quantity input */
+.quantity-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  background: #0f0f0f;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Remove number arrows */
+.quantity-input::-webkit-inner-spin-button,
+.quantity-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.quantity-input {
+  -moz-appearance: textfield;
+}
+
+/* Quick buttons */
+.quick-btns {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.quick-btns button {
+  flex: 1;
+  padding: 6px 0;
+  border-radius: 6px;
+  border: none;
+  background: #1f2933;
+  color: #22c55e;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.quick-btns button:hover {
+  background: #22c55e;
+  color: #000;
+}
+
+/* Summary rows */
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.summary-row.total {
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #22c55e;
+}
+
+/* Warning */
+.warning-text {
+  margin-top: 10px;
+  color: #facc15;
+  font-size: 12px;
+}
+
+/* Footer */
+.modal-footer {
+  display: flex;
+  gap: 10px;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Buttons */
+.btn-confirm {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buy-confirm {
+  background: #22c55e;
+  color: #000;
+}
+
+.sell-confirm {
+  background: #ef4444;
+  color: #fff;
+}
+
+.btn-confirm:hover {
+  transform: translateY(-1px);
+}
+
+.btn-confirm:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-cancel {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  background: #374151;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-cancel:hover {
+  background: #4b5563;
+}

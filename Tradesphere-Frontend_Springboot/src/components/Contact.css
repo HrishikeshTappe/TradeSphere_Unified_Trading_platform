@@ -1,0 +1,78 @@
+.contact-page {
+  min-height: 70vh;
+  padding: 2rem 0;
+}
+
+.contact-card {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  border-radius: 15px;
+  color: white;
+}
+
+.contact-card .card-body {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  color: #333;
+}
+
+.contact-card h2 {
+  color: #1e3c72;
+  font-weight: bold;
+}
+
+.contact-card .form-label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.contact-card .form-control {
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.contact-card .form-control:focus {
+  border-color: #2a5298;
+  box-shadow: 0 0 0 0.2rem rgba(42, 82, 152, 0.25);
+}
+
+.contact-card .form-control.is-invalid {
+  border-color: #dc3545;
+}
+
+.contact-card .btn-primary {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.contact-card .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(42, 82, 152, 0.4);
+}
+
+.contact-card .btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.contact-card textarea.form-control {
+  resize: vertical;
+  min-height: 120px;
+}
+
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 1rem;
+  }
+
+  .contact-card .card-body {
+    padding: 1.5rem;
+  }
+}

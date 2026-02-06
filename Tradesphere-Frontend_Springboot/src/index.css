@@ -1,0 +1,45 @@
+/* ===== THEME VARIABLES ===== */
+.app.dark {
+  --bg: #0a0a0a;
+  --card: #1a0a2e;
+  --text: #ffffff;
+  --border: #7b2cbf;
+  --accent: #c77dff;
+}
+
+.app.light {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0a0a0a;
+  --border: #7b2cbf;
+  --accent: #c77dff;
+}
+
+/* ===== APPLY GLOBAL ===== */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Push footer to bottom on short pages */
+.app-content {
+  flex: 1 0 auto;
+}
+
+.app-footer {
+  flex-shrink: 0;
+}

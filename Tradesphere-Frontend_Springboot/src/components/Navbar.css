@@ -1,0 +1,74 @@
+/* ===============================
+   NAVBAR CONTAINER
+================================ */
+.custom-navbar {
+  background: linear-gradient(90deg, #0a0a0a, #2d0a4e, #7b2cbf);
+  padding: 0.5rem 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ===============================
+   LOGO
+================================ */
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(199, 125, 255, 0.4);
+}
+
+.brand-text {
+  background: linear-gradient(135deg, #e0aaff, #c77dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.5px;
+}
+
+/* ===============================
+   NAV LINKS
+================================ */
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  /* Force override bootstrap light nav color if needed */
+  font-weight: 500;
+  margin: 0 5px;
+  transition: color 0.25s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #e0aaff !important;
+}
+
+/* ===============================
+   DROPDOWN MENU
+================================ */
+.settings-dropdown-toggle .dropdown-toggle::after {
+  display: none;
+  /* Hide default carat if we used the 3 dots as title, but wait, NavDropdown adds one */
+}
+
+/* Custom styling for the dropdown menu to match original aesthetic */
+.dropdown-menu {
+  background: linear-gradient(180deg, rgba(25, 10, 40, 0.95), rgba(15, 5, 30, 0.95)) !important;
+  border: 1px solid rgba(199, 125, 255, 0.35);
+  backdrop-filter: blur(10px);
+}
+
+.dropdown-item {
+  color: #fff !important;
+  transition: background 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background: rgba(199, 125, 255, 0.18) !important;
+  color: #fff !important;
+}
+
+.dropdown-divider {
+  border-top: 1px solid rgba(199, 125, 255, 0.25);
+}

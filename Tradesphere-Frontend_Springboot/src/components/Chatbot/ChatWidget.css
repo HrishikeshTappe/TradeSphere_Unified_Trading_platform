@@ -1,0 +1,71 @@
+.chat-widget-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.chat-toggle-btn {
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-toggle-btn:hover {
+    transform: scale(1.1);
+}
+
+.bot-icon {
+    width: 70px;
+    height: 70px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
+}
+
+.chat-window {
+    width: 320px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.chat-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #1a1d21;
+    /* Dark theme bg */
+}
+
+.messages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message-bubble {
+    max-width: 80%;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.message-bubble.user {
+    align-self: flex-end;
+    background-color: #0d6efd;
+    /* Bootstrap primary */
+    color: white;
+    border-bottom-right-radius: 2px;
+}
+
+.message-bubble.bot {
+    align-self: flex-start;
+    background-color: #343a40;
+    /* Bootstrap dark gray */
+    color: #e9ecef;
+    border-bottom-left-radius: 2px;
+}

@@ -1,0 +1,146 @@
+/* PAGE */
+.portfolio-page {
+  min-height: 100vh;
+  padding: 24px;
+  background: linear-gradient(180deg, #0f1117, #0b0d12);
+  color: #ffffff;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.portfolio-page h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+/* SUMMARY */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.summary-card {
+  background: linear-gradient(145deg, #1b1f2a, #151824);
+  border-radius: 12px;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.summary-card p {
+  font-size: 12px;
+  color: #9aa4b2;
+  margin-bottom: 6px;
+}
+
+.summary-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.profit h3 {
+  color: #4cd964;
+}
+
+.loss h3 {
+  color: #ff4d4f;
+}
+
+/* CHARTS */
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.chart-card {
+  background: linear-gradient(145deg, #1b1f2a, #151824);
+  border-radius: 14px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.chart-card h4 {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #cfd6e4;
+}
+
+.chart-wrapper {
+  height: 260px;
+}
+
+/* LOADING */
+.loading {
+  padding: 40px;
+  text-align: center;
+  color: #aaa;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-wrapper {
+    height: 220px;
+  }
+}
+.section-title {
+  margin: 24px 0 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.holdings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.holding-row {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  background: linear-gradient(145deg, #1b1f2a, #151824);
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.coin img {
+  width: 22px;
+  height: 22px;
+}
+
+@media (max-width: 900px) {
+  .holding-row {
+    grid-template-columns: 1.5fr 1fr 1fr;
+    row-gap: 6px;
+  }
+
+  .holding-row div:nth-child(4),
+  .holding-row div:nth-child(5),
+  .holding-row div:nth-child(6) {
+    display: none;
+  }
+}

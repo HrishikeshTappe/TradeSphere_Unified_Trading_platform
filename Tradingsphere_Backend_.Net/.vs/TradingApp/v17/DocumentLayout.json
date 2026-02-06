@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\services\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\services\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\services\\stockpriceservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\services\\stockpriceservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\models\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\models\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\models\\traderequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\models\\traderequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\models\\watchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\models\\watchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\services\\httpclientfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\services\\httpclientfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\services\\cryptopriceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\services\\cryptopriceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\controllers\\watchlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\controllers\\watchlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\controllers\\tradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\controllers\\tradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\controllers\\testemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\controllers\\testemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\controllers\\pricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\controllers\\pricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\services\\alertworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\services\\alertworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\models\\pricealert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\models\\pricealert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|f:\\cdac2025\\projecttrading\\tradingapp\\tradingapp\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E56D4-5F6A-4D3F-B3EA-7021D722F7D4}|TradingApp\\TradingApp.csproj|solutionrelative:tradingapp\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HttpClientFix.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\HttpClientFix.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Services\\HttpClientFix.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\HttpClientFix.cs",
+              "RelativeToolTip": "TradingApp\\Services\\HttpClientFix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T17:42:03.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Services\\SmtpSettings.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\SmtpSettings.cs",
+              "RelativeToolTip": "TradingApp\\Services\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:45:11.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StockPriceServies.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\StockPriceServies.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Services\\StockPriceServies.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\StockPriceServies.cs",
+              "RelativeToolTip": "TradingApp\\Services\\StockPriceServies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T13:28:23.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Watchlist.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\Watchlist.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Models\\Watchlist.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\Watchlist.cs",
+              "RelativeToolTip": "TradingApp\\Models\\Watchlist.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:10:31.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\Wallet.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Models\\Wallet.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\Wallet.cs",
+              "RelativeToolTip": "TradingApp\\Models\\Wallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:17:29.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TradeRequest.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\TradeRequest.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Models\\TradeRequest.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\TradeRequest.cs",
+              "RelativeToolTip": "TradingApp\\Models\\TradeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:46:19.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Trade.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\Trade.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Models\\Trade.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\Trade.cs",
+              "RelativeToolTip": "TradingApp\\Models\\Trade.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA2wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:45:13.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Program.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Program.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Program.cs",
+              "RelativeToolTip": "TradingApp\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:58:59.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\appsettings.json",
+              "RelativeDocumentMoniker": "TradingApp\\appsettings.json",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\appsettings.json",
+              "RelativeToolTip": "TradingApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-26T12:51:04.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Services\\EmailService.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\EmailService.cs",
+              "RelativeToolTip": "TradingApp\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:46:13.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CryptoPriceService.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\CryptoPriceService.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Services\\CryptoPriceService.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\CryptoPriceService.cs",
+              "RelativeToolTip": "TradingApp\\Services\\CryptoPriceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:54:20.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Models\\User.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\User.cs",
+              "RelativeToolTip": "TradingApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:17:58.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Portfolio.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\Portfolio.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Models\\Portfolio.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\Portfolio.cs",
+              "RelativeToolTip": "TradingApp\\Models\\Portfolio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:14:25.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Data\\AppDbContext.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TradingApp\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:12:13.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WatchlistController.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\WatchlistController.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Controllers\\WatchlistController.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\WatchlistController.cs",
+              "RelativeToolTip": "TradingApp\\Controllers\\WatchlistController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:09:53.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WalletController.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\WalletController.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Controllers\\WalletController.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\WalletController.cs",
+              "RelativeToolTip": "TradingApp\\Controllers\\WalletController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:10:06.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TradeController.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\TradeController.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Controllers\\TradeController.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\TradeController.cs",
+              "RelativeToolTip": "TradingApp\\Controllers\\TradeController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAAKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:51:19.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TestEmailController.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\TestEmailController.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Controllers\\TestEmailController.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\TestEmailController.cs",
+              "RelativeToolTip": "TradingApp\\Controllers\\TestEmailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T13:11:29.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PriceController.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\PriceController.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Controllers\\PriceController.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\PriceController.cs",
+              "RelativeToolTip": "TradingApp\\Controllers\\PriceController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:51:26.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AlertController.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\AlertController.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Controllers\\AlertController.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Controllers\\AlertController.cs",
+              "RelativeToolTip": "TradingApp\\Controllers\\AlertController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T18:50:17.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AlertWorker.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\AlertWorker.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Services\\AlertWorker.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Services\\AlertWorker.cs",
+              "RelativeToolTip": "TradingApp\\Services\\AlertWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:47:04.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PriceAlert.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\PriceAlert.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Models\\PriceAlert.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\PriceAlert.cs",
+              "RelativeToolTip": "TradingApp\\Models\\PriceAlert.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:38:42.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\Asset.cs",
+              "RelativeDocumentMoniker": "TradingApp\\Models\\Asset.cs",
+              "ToolTip": "F:\\CDAC2025\\ProjectTrading\\TradingApp\\TradingApp\\Models\\Asset.cs",
+              "RelativeToolTip": "TradingApp\\Models\\Asset.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:14:22.309Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
